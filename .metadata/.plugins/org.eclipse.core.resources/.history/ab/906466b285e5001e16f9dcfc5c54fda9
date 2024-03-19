@@ -15,9 +15,6 @@ public class CuentaPesoCL extends CuentaBancaria
 	{
 		// TODO Auto-generated method stub
 		super.retirarDinero(montoRetirado);
-		
-		probando método
-		
 	}
 	
 }
