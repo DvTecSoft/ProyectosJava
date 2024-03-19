@@ -1,0 +1,22 @@
+package clases;
+
+public class Poligono 
+{
+	
+	public void imprimirPoligono() 
+	{
+		System.out.println("imprimir");
+	}
+	
+	public void multiplicarArea()
+	{
+		System.out.println("Multi");
+	}
+	
+	public void sumarArea()
+	{
+		System.out.println("Suma");
+	}
+	
+
+}

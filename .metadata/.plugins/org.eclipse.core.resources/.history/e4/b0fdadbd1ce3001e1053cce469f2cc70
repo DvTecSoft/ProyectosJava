@@ -1,0 +1,14 @@
+package clases;
+
+public class TarjetaCredito implements FormaPago 
+{
+	/** 
+	 * Método procesar pago desde Tarjeta de crédito
+	 */
+
+	@Override
+	public void realizarPago() {
+		System.out.println("Procesando pago con MasterPlop");
+		
+	}
+}

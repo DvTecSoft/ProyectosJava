@@ -1,0 +1,130 @@
+package clases;
+
+/**
+ * Se define la clase Cuenta Bancaria con sus respectivos parámetros
+ * @author	: DvTec
+ * @version	: 1.0.0
+ * @since	: 07.03.2024 
+ */
+
+public class CuentaBancaria 
+{
+	/*
+	 * ==========================================================
+	 * Declaro los atributos de la clase, que son:
+	 * ==========================================================
+	 */
+	
+	/**
+	 * NumeroCuenta
+	 * Nombre Titular
+	 * Saldo Actual 
+	 */
+	private int numeroCuenta;
+	private String titular;
+	private double saldoActual;
+	/*
+	 * ==========================================================
+	 * FIN Declaro los atributos de la clase
+	 * ==========================================================
+	 */
+	
+	
+	
+	/*
+	 * ==========================================================
+	 * Creamos los constructores
+	 * ==========================================================
+	 */
+	
+	/**
+	 * Constructor vacío
+	 */
+	public CuentaBancaria()
+	{
+	}
+	
+	/**
+	 * Constructor con datos
+	 * @param numeroCuenta 	# de la cuenta del usuario
+	 * @param titular 		Nombre del titular
+	 * @param saldoActual 	Saldo Actual
+	 */
+	public CuentaBancaria(int numeroCuenta, String titular, double saldoActual)
+	{
+		this.numeroCuenta = numeroCuenta;
+		this.titular = titular;
+		this.saldoActual = saldoActual;
+	}
+	/*
+	 * ==========================================================
+	 * FIN Creamos los constructores
+	 * ==========================================================
+	 */
+		
+	
+	
+	/*
+	 * ==========================================================
+	 * Crear los get y set de cada atributo
+	 * ==========================================================
+	 */
+	public int getNumeroCuenta() {
+		return numeroCuenta;
+	}
+
+	public void setNumeroCuenta(int numeroCuenta) {
+		this.numeroCuenta = numeroCuenta;
+	}
+
+	public String getTitular() {
+		return titular;
+	}
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+	public double getSaldoActual() {
+		return saldoActual;
+	}
+
+	public void setSaldoActual(double saldoActual) {
+		this.saldoActual = saldoActual;
+	}	
+	/*
+	 * ==========================================================
+	 * FIN Crear los get y set de cada atributo
+	 * ==========================================================
+	 */
+
+	
+	
+	/* 
+	 * ==========================================================
+	 * Métodos propios
+	 * ==========================================================
+	 */
+	
+	/**
+	 * Método que aumenta el saldo actual según el monto ingresado
+	 * @param monto es el dinero que aumentará el saldo actual
+	 */
+	public void ingresarDinero(double monto)
+	{
+		this.saldoActual = this.saldoActual + monto;
+	}
+
+	
+
+	/*
+	 * ==========================================================
+	 * FIN Métodos propios
+	 * ==========================================================
+	 */
+	
+	
+	
+	
+	
+}

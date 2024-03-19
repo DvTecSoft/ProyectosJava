@@ -1,0 +1,27 @@
+package clases;
+
+public class Dolar 
+{
+	
+	@Override
+	public String getSimbolo() 
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public float getFactorConversion() 
+	{
+		// TODO Auto-generated method stub
+		return 940;
+	}
+
+	@Override
+	public void convertir() 
+	{
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

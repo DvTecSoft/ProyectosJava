@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="clases.Perro"/>
+    <fullyQualifiedTypeName name="clases.Gato"/>
+    <fullyQualifiedTypeName name="clases.Figura"/>
+    <fullyQualifiedTypeName name="clases.Rectangulo"/>
+    <fullyQualifiedTypeName name="clases.PayPal"/>
+    <fullyQualifiedTypeName name="clases.Efectivo"/>
+    <fullyQualifiedTypeName name="clases.Pez"/>
+    <fullyQualifiedTypeName name="clases.Ave"/>
+    <fullyQualifiedTypeName name="clases.FormaPago"/>
+    <fullyQualifiedTypeName name="clases.TarjetaCredito"/>
+    <fullyQualifiedTypeName name="clases.CuentaUSD"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,7 @@
+package alke_wallet;
+
+public interface CuentaContable 
+{
+	public void ingresarDinero(double monto);
+
+}

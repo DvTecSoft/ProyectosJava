@@ -1,0 +1,13 @@
+import clases.Figura;
+
+public class Main 
+{
+
+	public static void main(String[] args) 
+	{
+		Figura rectangulo = new Rectangulo;
+		
+
+	}
+
+}

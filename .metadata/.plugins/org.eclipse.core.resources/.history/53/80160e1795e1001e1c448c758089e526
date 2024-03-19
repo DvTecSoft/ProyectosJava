@@ -1,0 +1,73 @@
+package veterinaria1_0;
+
+import clases.Animal;
+import clases.Perro;
+import clases.Gato;
+
+public class Main 
+{
+
+	public static void main(String[] args) 
+	{
+		/*
+		Perro p = new Perro();
+		
+		p.setNombre("Jack");
+		p.setPeso(1.5);
+		p.setRaza("Quiltro");
+		
+		System.out.println(p.getNombre());
+		System.out.println(p.getPeso());
+		System.out.println(p.getRaza());
+		
+		p.comer();
+		p.dormir();
+		p.emitirSonido();
+		
+		Gato g = new Gato();
+		
+		g.comer();
+		g.dormir();
+		g.emitirSonido();
+		*/
+		
+		// 
+		// comer();
+		// dormir();
+		
+		// Ejercicio veterinaria 3.0
+		Animal a = new Animal();
+		Animal b = new Perro();
+		Animal c = new Gato();
+		Animal[] arregloAnimales = {a,b,c}; 
+		
+		for (int i = 0; i <= arregloAnimales.length-1; i++)
+		{
+			//arreglo bidimensional? o como identificar de quien es el sonido
+			System.out.println("El animal dice: ");
+			arregloAnimales[i].emitirSonido();
+		}
+		
+		//		for (Animal animal : arregloAnimales) 
+		// 		{
+		//			System.out.println("");
+		//			animal.emitirSonido();
+		//		}
+		
+		// FIN Ejercicio veterinaria 3.0
+				
+	}
+	
+	public static void comer()
+	{
+		Perro p = new Perro();
+		p.comer();
+	}
+
+	public static void dormir()
+	{
+		Perro p = new Perro();
+		p.dormir();
+	}
+
+}

@@ -1,0 +1,15 @@
+package clases;
+
+public class Rectangulo 
+{
+	
+	float base; 
+	float altura; 
+
+	@Override public float area() 
+	{	
+		return base * altura;
+	}
+
+	
+}

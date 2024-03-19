@@ -1,0 +1,77 @@
+package alke_wallet;
+
+// Importa Clases Nativas 
+import java.util.Scanner;
+
+// Importa Clases
+import clases.CuentaBancaria;
+
+public class Main 
+	{
+
+	// Instancia Librerías
+	static Scanner entrada  = new Scanner(System.in);
+	
+	public static void main(String[] args) 
+	{
+		// Llamo a método para crear una cuenta
+		CuentaBancaria cuentaNva = crearCuenta();
+		// System.out.println("# de Cuenta: " + cuenta.getNumeroCuenta());
+		cuentaNva.imprimirDatos();
+		
+		CuentaBancaria cuentaNva2 = crearCuenta();
+		// System.out.println("# de Cuenta: " + cuenta.getNumeroCuenta());
+		cuentaNva.imprimirDatos();
+	
+		// Cierra librerias
+		entrada.close();
+		
+	}
+	
+	
+	public static CuentaBancaria crearCuenta()
+	{
+		
+		// Instancia la cuenta
+		CuentaBancaria cuenta = new CuentaBancaria();
+		 
+		// Ingresa de datos
+		
+		System.out.println("Ingrese el nombre de titular: ");
+		String varTitular = entrada.nextLine();
+		
+		System.out.println("Ingrese el # de cuenta bancaria: ");
+		int varCuentaBancaria = entrada.nextInt();
+
+		System.out.println("Ingrese el saldo inicial: ");
+		double varSaldoInicial = entrada.nextDouble();
+
+		// Graba los datos
+		cuenta.setTitular(varTitular);
+		cuenta.setNumeroCuenta(varCuentaBancaria);
+		cuenta.setSaldoActual(varSaldoInicial);
+		
+		// Muestra mensajes en pantalla
+//		System.out.println("");
+//		System.out.println("-- Datos ingresados --");
+//		System.out.println("Titular: " + cuenta.getTitular());
+//		System.out.println("# de Cuenta: " + cuenta.getNumeroCuenta());
+//		System.out.println("Saldo Inicial: " + cuenta.getSaldoActual());
+//		System.out.println("-- Cliente Creado Correctamente --");
+		
+		
+		// Retorna valor
+		return cuenta;
+	}
+
+	
+	
+	/*Esto hizo el profe. Comparar 
+	 * 
+	 * 
+	 */
+	
+	
+	
+	
+}

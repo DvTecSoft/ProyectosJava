@@ -1,0 +1,22 @@
+package clases;
+
+public interface Moneda implements FormaPago 
+{
+	/**
+	 * Interfaz que devuelte el simbolo de la conversion
+	 * @return el simbolo
+	 */
+	public String getSimbolo();
+	
+	/**
+	 * Interfaz que devuelve el factor de conversión 
+	 * @return el factor en float
+	 */
+	public float getFactorConversion();
+
+	/**
+	 * Método para convertir
+	 */
+	public void convertir();
+}
+

@@ -1,0 +1,17 @@
+package clases;
+
+public class Vaca implements Animal 
+{
+
+	/**
+	 * 
+	 */
+	@Override
+	public String emitirSonido() 
+	{
+		// TODO Auto-generated method stub
+		return "Muuu";
+	}
+	
+
+}

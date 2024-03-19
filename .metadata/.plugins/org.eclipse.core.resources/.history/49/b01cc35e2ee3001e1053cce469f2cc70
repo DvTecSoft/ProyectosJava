@@ -1,0 +1,5 @@
+package alke_wallet;
+
+public interface CuentaContable {
+
+}

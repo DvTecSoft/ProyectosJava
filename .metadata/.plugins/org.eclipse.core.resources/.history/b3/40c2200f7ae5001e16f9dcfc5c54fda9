@@ -1,0 +1,19 @@
+package clases;
+
+public class Poligono 
+{
+	
+	public void imprimirPoligono() 
+	{
+	}
+	
+	public void multiplicarArea()
+	{
+	}
+	
+	public void sumarArea()
+	{
+	}
+	
+
+}

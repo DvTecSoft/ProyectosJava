@@ -1,0 +1,30 @@
+package clases;
+
+import clases.Figura;
+
+public class Rectangulo extends Figura 
+{
+	
+	float base; 
+	float altura;
+	
+	/**
+	 * 
+	 */
+	public Rectangulo() {
+	} 
+
+	
+	@Override
+	public float area() 
+	{
+		return base * altura;
+	}
+
+
+
+
+	
+
+	
+}

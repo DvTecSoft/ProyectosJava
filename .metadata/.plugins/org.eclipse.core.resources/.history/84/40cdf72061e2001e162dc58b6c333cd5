@@ -1,0 +1,16 @@
+package clases;
+
+public class Gato implements Animal 
+{
+	/**
+	 * 
+	 */
+	@Override
+	public String emitirSonido() 
+	{
+		
+		// TODO Auto-generated method stub
+		return "Miau";
+	}
+
+}

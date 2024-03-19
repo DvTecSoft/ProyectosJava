@@ -1,0 +1,49 @@
+package adoptauncan;
+
+import java.util.Scanner;
+
+import clases.Persona;
+import clases.Perro;
+
+public class Main {
+
+	public static void main(String[] args) 
+	{
+		
+
+
+	}
+	
+	public static crearPersona()
+	{
+		// Instancia Librerías
+		Scanner entrada  = new Scanner(System.in);
+		
+		// Instancia la cuenta
+		Persona nuevaPersona = new Persona();
+		 
+		// Ingresa de datos
+		
+		System.out.println("Ingrese el nombre: ");
+		String varNombre = entrada.nextLine();
+		
+		// Graba los datos
+		nuevaPersona.setNombre(varNombre);
+		
+		// Muestra mensajes en pantalla
+//		System.out.println("");
+//		System.out.println("-- Datos ingresados --");
+//		System.out.println("Titular: " + cuenta.getTitular());
+//		System.out.println("# de Cuenta: " + cuenta.getNumeroCuenta());
+//		System.out.println("Saldo Inicial: " + cuenta.getSaldoActual());
+//		System.out.println("-- Cliente Creado Correctamente --");
+		
+		// Cierra librerias
+		entrada.close();
+		
+		// Retorna valor
+		return nuevaPersona;
+		
+	}
+
+}

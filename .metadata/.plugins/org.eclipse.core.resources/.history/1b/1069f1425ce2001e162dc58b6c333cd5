@@ -1,0 +1,11 @@
+package clases;
+
+public class TarjetaCredito implements FormaPago {
+
+	@Override
+	public void procesarPago() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

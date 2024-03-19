@@ -1,0 +1,15 @@
+package clases;
+
+public class PayPal implements FormaPago 
+{
+	/**
+	 * Método procesar pago desde Paypal 
+	 */
+	@Override
+	public void procesarPago() 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

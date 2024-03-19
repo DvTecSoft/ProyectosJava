@@ -1,0 +1,108 @@
+package adoptauncan;
+
+import java.util.Scanner;
+
+import clases.Persona;
+import clases.Perro;
+
+public class Main {
+
+	public static void main(String[] args) 
+	{
+		/*
+		// Vamos a crear 2 perros
+		// Perro 1 usando constructor vacío
+		Perro brako = new Perro();
+		brako.setNombre("Brako");
+		brako.setRaza("Quiltro");
+		brako.setEdad(2);
+		brako.setRaza("L");
+		
+		// Perro 2 usando constructor por parámetros
+		Perro jack = new Perro("Brako","Quiltro",9,"S");
+
+		System.out.println("Nombre: " + nuevaPersona1.getNombre());
+		System.out.println("Nombre: " + nuevaPersona2.getNombre());
+		
+		// Persona 1 usando constructor vacío
+		Persona p1 = new Persona();
+		p1.setNombre("Dany");
+		p1.setApellido("Ap1");
+		p1.setEdad(32);
+		p1.setRut(12345678);
+		p1.setDV("7");
+		p1.setRaza("L");		
+		p1.setPerro(brako); // El nombre de la clase instanciada. Ahí setea el perro A o B
+		
+		// Obtener el perro de p1 
+		System.out.println(p1.getPerro().getNombre())
+		*/
+		
+
+		/* Se cae de esta fprma, al ejecutar los 2
+		Perro dog1 = crearPerro();
+		Perro dog2 = crearPerro();
+		
+		System.out.print(dog1.getNombre());
+		System.out.print(dog2.getNombre());
+		*/
+
+		// Forma 1
+		//crear dos objetos perros
+		//Perro dog1 = new Perro("Daisy", "Pudel", 2, "mediano");
+		//Perro dog2 = new Perro("Chau", "Aleman", 10, "grande");
+		//System.out.println(dog1.getNombre() );
+		//Persona person1 = new Persona("Maria", "Gonzalez", 25, 12345678, dog1);
+		//Persona person2 = new Persona("Pedro", "Lopez", 62, 98765432, dog2);
+		//person1.mostrarDatos();
+		//person2.mostrarDatos();		
+				
+		// Forma 2
+		//Perro perro1 = new Perro("Messi", 12, "pitbull", "mediano");
+		//Persona persona1 = new Persona("Mario", "Montenegro", 45, "10770017-k", perro1);
+		//Perro perro2 = new Perro("Ronaldo", 8, "Chiguagua", "pequeño");
+		//Persona persona2 = new Persona("Andres", "Martinez", 35, "13847496-1", perro2);
+		//Perro datosPerro1 = persona1.getPerro();
+		//Perro datosPerro2 = persona2.getPerro();
+		//System.out.println("El perro: " + datosPerro1.getNombre() + " pertenece a : " + persona1.getNombre() + " " + persona1.getApellido());
+		//System.out.println("El perro: " + datosPerro2.getNombre() + " pertenece a : " + persona2.getNombre() + " " + persona2.getApellido());				
+				
+				
+	}
+	
+	public static Perro crearPerro()
+	{
+		// Instancia Librerías
+		Scanner entrada  = new Scanner(System.in);
+		
+		// Instancia la cuenta
+		Perro nvoPerro = new Perro();
+		 
+		// Ingresa de datos
+		
+		System.out.println("Ingrese el nombre: ");
+		String varNombre = entrada.nextLine();
+		
+		// Graba los datos
+		nvoPerro.setNombre(varNombre);
+		nvoPerro.setRaza("a");
+		nvoPerro.setEdad(1);
+		nvoPerro.setTamano("L");
+		
+		// Muestra mensajes en pantalla
+//		System.out.println("");
+//		System.out.println("-- Datos ingresados --");
+//		System.out.println("Titular: " + cuenta.getTitular());
+//		System.out.println("# de Cuenta: " + cuenta.getNumeroCuenta());
+//		System.out.println("Saldo Inicial: " + cuenta.getSaldoActual());
+//		System.out.println("-- Cliente Creado Correctamente --");
+		
+		// Cierra librerias
+		entrada.close();
+		
+		// Retorna valor
+		return nvoPerro;
+		
+	}
+
+}

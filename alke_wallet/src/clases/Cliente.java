@@ -1,0 +1,115 @@
+package clases;
+
+public class Cliente 
+{
+
+	/*
+	 * ==========================================================
+	 * Declaro los atributos de la clase, que son:
+	 * ==========================================================
+	 */
+	
+	/**
+	 * NumeroCuenta
+	 * Nombre Titular
+	 * Saldo Actual 
+	 */
+	private long id;
+	private String nombre;
+	private CuentaBancaria cuenta;
+	/*
+	 * ==========================================================
+	 * FIN Declaro los atributos de la clase
+	 * ==========================================================
+	 */
+
+	/*
+	 * ==========================================================
+	 * Creamos los constructores
+	 * ==========================================================
+	 */
+	
+	/**
+	 * Constructor vacío
+	 */
+	public Cliente()
+	{
+	}
+	
+	/**
+	 * Constructor con datos
+	 * @param id 		id del usuario
+	 * @param nombre 	Nombre del titular
+	 * @param cuenta 	Saldo Actual
+	 */
+	public Cliente(long id, String nombre, CuentaBancaria cuenta)
+	{
+		this.id = id;
+		this.nombre = nombre;
+		this.cuenta = cuenta;
+	}
+	/*
+	 * ==========================================================
+	 * FIN Creamos los constructores
+	 * ==========================================================
+	 */
+	
+	/*
+	 * ==========================================================
+	 * Crear los get y set de cada atributo
+	 * ==========================================================
+	 */
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public CuentaBancaria getCuenta() {
+		return cuenta;
+	}
+
+	public void setCuenta(CuentaBancaria cuenta) {
+		this.cuenta = cuenta;
+	}	
+	/*
+	 * ==========================================================
+	 * FIN Crear los get y set de cada atributo
+	 * ==========================================================
+	 */	
+	
+	
+	/* 
+	 * ==========================================================
+	 * Métodos propios
+	 * ==========================================================
+	 */
+	public void imprimirDatos()
+	{
+		// System.out.println("Id Cliente: " + numeroCuenta);
+		System.out.println("ID: " + id);
+		System.out.println("# Cuenta: " + cuenta.getNumeroCuenta());
+		System.out.println("Titular: " + nombre);
+		System.out.println("Saldo Actual: " + cuenta.getSaldoActual());
+		// cuenta.ingresarDinero(5000000);
+//		System.out.println("Te transfirieron 5000000");
+//		System.out.println("Tu nuevo saldo es: " + cuenta.getSaldoActual());
+	}
+	
+	/*
+	 * ==========================================================
+	 * FIN Métodos propios
+	 * ==========================================================
+	 */
+	
+}

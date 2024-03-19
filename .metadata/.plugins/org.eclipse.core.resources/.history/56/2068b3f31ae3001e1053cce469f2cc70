@@ -1,0 +1,10 @@
+package clases;
+
+public FormaPago 
+{
+	/**
+	 * Método para realizar un pago
+	 */
+	public void realizarPago();
+	
+}

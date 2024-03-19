@@ -1,0 +1,21 @@
+package clases;
+
+public class CuentaUSD extends CuentaBancaria
+{
+	@Override
+	public void ingresarDinero(double montoIngresado) 
+	{
+		// TODO Auto-generated method stub
+		Dolar dolarConversion = new Dolar();
+		montoIngresado = montoIngresado * dolarConversion.getFactorConversion();
+		super.ingresarDinero(monto);
+	}
+	
+	@Override
+	public void retirarDinero(double montoRetirado) 
+	{
+		// TODO Auto-generated method stub
+		super.retirarDinero(montoRetirado);
+	}
+
+}

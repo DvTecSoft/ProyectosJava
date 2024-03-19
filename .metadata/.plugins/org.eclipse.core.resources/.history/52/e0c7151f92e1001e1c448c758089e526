@@ -1,0 +1,14 @@
+package clases;
+
+public class Gato extends Animal
+{
+	
+	// Métodos propios
+	@Override
+	public void emitirSonido()
+	{
+		System.out.println("Miau");
+	}
+	// FIN Métodos propios
+
+}

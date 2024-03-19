@@ -1,0 +1,23 @@
+package veterinaria1_0;
+
+import clases.Animal;
+import clases.Perro;
+
+public class Main 
+{
+
+	public static void main(String[] args) 
+	{
+		Perro p = new Perro();
+		
+		p.setNombre("Jack");
+		p.setPeso(1.5);
+		p.setRaza("Quiltro");
+		
+		System.out.println(p.getNombre());
+		System.out.println(p.getPeso());
+		System.out.println(p.getRaza());
+
+	}
+
+}
