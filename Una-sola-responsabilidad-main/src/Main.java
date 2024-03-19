@@ -10,7 +10,8 @@ public class Main {
 		
 		
 		 //probando
-		
+		poligono1.imprimirPoligonos();
+		poligono2.imprimirPoligonos();
 
 	}
 

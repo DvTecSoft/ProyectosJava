@@ -26,7 +26,7 @@ public class Circulo extends Poligono {
 	}
 
 	@Override
-	void imprimirPoligonos() {
+	public void imprimirPoligonos() {
 		System.out.println("El area del circulo es: " + calculandoArea());
 		
 	}	

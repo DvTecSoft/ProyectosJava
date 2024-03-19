@@ -26,7 +26,7 @@ public class Cuadrado extends Poligono {
 	}
 
 	@Override
-	void imprimirPoligonos() {
+	public void imprimirPoligonos() {
 		System.out.println("El area del cuadrado es: " + calculandoArea());
 		
 	}	
